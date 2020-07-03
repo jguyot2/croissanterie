@@ -1,0 +1,12 @@
+  {
+    "name": "Croissantroll",
+    "version": "1.0",
+    "description": "CHEH",
+      "manifest_version": 2,
+       "content_scripts": [
+   {
+     "matches": ["https://mail.google.com/*"],
+     "js": ["noCroissanting.js"]
+   }
+ ]
+  }
